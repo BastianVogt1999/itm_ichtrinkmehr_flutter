@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>253710524311-1g0urqqf31lkrbgv1949sj47g06s81p0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.253710524311-1g0urqqf31lkrbgv1949sj47g06s81p0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAkviuhMvHLunMCk55DtsetS6fcOapZbZo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>253710524311</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bvmobile.itm-ichtrinkmehr-flutter</string>
+	<key>PROJECT_ID</key>
+	<string>itm-ichtrinkmehr</string>
+	<key>STORAGE_BUCKET</key>
+	<string>itm-ichtrinkmehr.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:253710524311:ios:af036d89b25009520deed2</string>
+</dict>
+</plist>

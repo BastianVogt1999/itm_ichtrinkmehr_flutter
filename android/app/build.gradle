@@ -23,8 +23,12 @@ if (flutterVersionName == null) {
 
 apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+apply plugin: 'com.google.gms.google-services'
 
 android {
+    defaultConfig {
+        multiDexEnabled true
+    }
     compileSdkVersion 30
 
     compileOptions {
@@ -34,8 +38,8 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.itm_ichtrinkmehr_flutter"
-        minSdkVersion 16
+        applicationId "com.bvmobile.itm_ichtrinkmehr_flutter"
+        minSdkVersion 19
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

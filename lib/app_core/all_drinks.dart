@@ -12,29 +12,27 @@ Widget allDrinks(String user_name) {
   );
 }
 
-
-Widget addNewDrink(){
-
-  return Stack(alignment: const Alignment(0, 0.8),
-    children: [
-      Lottie.asset('assets/questionmark.json'),
-      Container(
-          padding:
-          const EdgeInsets.only(left: 8, top: 4, right: 8, bottom: 4),
-          decoration: BoxDecoration(
-            color: Colors.black38,
+Widget _buildAddNewDrink() {
+  return Row(children: [
+    Image(
+      image: AssetImage('assets/pils.png'),
+    ),
+    Container(
+        padding: const EdgeInsets.only(left: 8, top: 4, right: 8, bottom: 4),
+        decoration: BoxDecoration(
+          color: Colors.black38,
+        ),
+        child: Text(
+          "Neuer Drink",
+          style: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+            color: Colors.white70,
           ),
-          child: Text(
-            "Neuer Drink",
-            style: TextStyle(
-              fontSize: 22,
-              fontWeight: FontWeight.bold,
-              color: Colors.white70,
-            ),
-          )),
-    ]
-  );
+        )),
+  ]);
 }
+
 //child: Lottie.asset('assets/questionmark.json'),
 
 
@@ -45,8 +43,7 @@ List<Widget> _buildGridList() {
     new Drink(3, "wein")
   ];
 
-  List <Widget> listDrinks =
-   List.generate(
+  return List.generate(
 
       allDrinks.length,
       (index) => Stack(alignment: const Alignment(0, 0.8), children: [
@@ -67,9 +64,6 @@ List<Widget> _buildGridList() {
                     color: Colors.white70,
                   ),
                 )),
-  // _buildAddNewDrink()
-  ])
-  );
-listDrinks.add(addNewDrink());
-  return listDrinks;
+   _buildAddNewDrink()
+  ]) );
 }

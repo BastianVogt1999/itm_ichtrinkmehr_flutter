@@ -39,6 +39,7 @@ void projectPressed(String user_name, BuildContext context) {
 
 Widget _buildBody(BuildContext context) {
   return ListView.builder(
+      itemCount: testProject.length,
       padding: EdgeInsets.all(16),
       itemBuilder: (context, i) {
         if (i.isOdd) {

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class BrightColor {
-  Color mainColor;
-  String company_code;
+  Color mainColor = Color(0xff00adb5);
+  Color company_code = Color(0xff00adb5);
 
-  String getUserName() {
-    return company_name;
+  Color getMainColor() {
+    return mainColor;
   }
 }

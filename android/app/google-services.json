@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "253710524311",
-    "project_id": "itm-ichtrinkmehr",
-    "storage_bucket": "itm-ichtrinkmehr.appspot.com"
+    "project_number": "47602994221",
+    "project_id": "buchundschaff-18ad9",
+    "storage_bucket": "buchundschaff-18ad9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:253710524311:android:4c65e953915cfdde0deed2",
+        "mobilesdk_app_id": "1:47602994221:android:1ee669ccbc4221b375fca4",
         "android_client_info": {
-          "package_name": "com.bvmobile.itm_ichtrinkmehr_flutter"
+          "package_name": "com.bvmobile.buchundschaff"
         }
       },
       "oauth_client": [
         {
-          "client_id": "253710524311-gght92ov2sgqtgupuqgj9pcbkjcfn881.apps.googleusercontent.com",
+          "client_id": "47602994221-m4dselj8v4fi1b06ef1k1j70fqijr0rm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAjcGliMhu1J0F8Du8taXu7iWz-Mhbt748"
+          "current_key": "AIzaSyCg5_l6yqigAMQbCI7vNTWcVBc88Hs0SgA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "253710524311-gght92ov2sgqtgupuqgj9pcbkjcfn881.apps.googleusercontent.com",
+              "client_id": "47602994221-m4dselj8v4fi1b06ef1k1j70fqijr0rm.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
